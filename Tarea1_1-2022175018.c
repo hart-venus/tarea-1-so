@@ -21,6 +21,7 @@ int main () {
         }
         if (i == N_HIJOS) {
             break; // soy el padre, ocupo salir del ciclo exterior
+            // esto funciona ya que el padre nunca hace break, y el hijo siempre lo hace
         }
     }    
 
